@@ -132,3 +132,101 @@ z-index:5;
 transition:.3s;
 
   }
+
+.tapText{
+margin-top:40px;
+font-size:18px;
+opacity:.8;
+animation:float 2s ease-in-out infinite;
+}
+
+@keyframes float{
+0%,100%{transform:translateY(0);}
+50%{transform:translateY(-8px);}
+}
+
+#letterPage{
+background:#111;
+padding:20px;
+}
+
+.letter{
+width:min(90%,700px);
+background:#f7ecd5;
+color:#3a2a1a;
+padding:45px;
+border-radius:12px;
+box-shadow:0 25px 60px rgba(0,0,0,.45);
+}
+
+.letter h2{
+font-family:'Great Vibes',cursive;
+font-size:52px;
+text-align:center;
+margin-bottom:25px;
+}
+
+#typingText{
+font-size:26px;
+line-height:1.8;
+white-space:pre-wrap;
+min-height:280px;
+}
+
+#continueBtn{
+margin-top:35px;
+padding:15px 45px;
+font-size:20px;
+border:none;
+border-radius:40px;
+background:#d62839;
+color:white;
+cursor:pointer;
+display:none;
+}
+
+.questionBox{
+background:#fff3f4;
+padding:40px;
+border-radius:25px;
+text-align:center;
+color:#8a1430;
+width:min(90%,450px);
+}
+
+.questionBox h1{
+font-size:42px;
+margin-bottom:20px;
+font-family:'Great Vibes',cursive;
+}
+
+.questionBox p{
+font-size:22px;
+margin-bottom:30px;
+}
+
+#yesBtn{
+padding:18px 60px;
+border:none;
+border-radius:50px;
+font-size:22px;
+cursor:pointer;
+background:#d62839;
+color:white;
+}
+
+#videoPage video{
+width:100%;
+height:100%;
+object-fit:contain;
+background:black;
+}
+
+.finalText{
+font-family:'Great Vibes',cursive;
+font-size:75px;
+text-align:center;
+background:linear-gradient(90deg,#ffd54f,#fff,#ffd54f);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
