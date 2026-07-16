@@ -230,3 +230,44 @@ background:linear-gradient(90deg,#ffd54f,#fff,#ffd54f);
 -webkit-background-clip:text;
 -webkit-text-fill-color:transparent;
 }
+#continueBtn{
+display:none;
+margin:auto;
+margin-top:35px;
+}
+
+#continueBtn,
+#yesBtn{
+
+transition:.35s;
+
+}
+
+#continueBtn:hover,
+#yesBtn:hover{
+
+transform:scale(1.05);
+
+}
+
+.finalText{
+
+animation: glow 2s infinite alternate;
+
+}
+
+@keyframes glow{
+
+from{
+
+text-shadow:0 0 10px gold;
+
+}
+
+to{
+
+text-shadow:0 0 35px gold;
+
+}
+
+}
